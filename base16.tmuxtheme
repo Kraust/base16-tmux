@@ -36,18 +36,15 @@ set -g window-status-activity-fg default # a bug in tmux
 # Window separator
 set -g window-status-separator ""
 
-# Window status length
-set -g window-status-length 100
-
 # Window status alignment
 set -g status-justify left
 
 # Pane border
-set -g pane-border-bg default
-set -g pane-border-fg colour19
+set -g pane-border-bg colour18
+set -g pane-border-fg colour18
 
 # Active pane border
-set -g pane-active-border-bg default
+set -g pane-active-border-bg colour04
 set -g pane-active-border-fg colour04
 
 # Pane number indicator
@@ -55,7 +52,7 @@ set -g display-panes-colour default
 set -g display-panes-active-colour default
 
 # Clock mode
-set -g clock-mode-colour color04
+set -g clock-mode-colour colour04
 set -g clock-mode-style 12
 
 # Message
