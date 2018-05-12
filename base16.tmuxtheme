@@ -12,8 +12,8 @@ set -g status-bg colour18
 # Left side of status bar
 set -g status-left-bg default
 set -g status-left-fg default
-set -g status-left-length 40
-set -g status-left "#[fg=colour18,bg=colour04,bold] #S-#(whoami) #[fg=colour21,bg=colour19,nobold] #I:#P "
+set -g status-left-length 150
+set -g status-left "#[fg=colour18,bg=colour04,bold] #(whoami)-#S "
 
 # Right side of status bar
 set -g status-right-bg default
