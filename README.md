@@ -14,5 +14,13 @@ git clone https://github.com/Kraust/base16-tmux.git ~/.base16-tmux
 source-file "${HOME}/.base16-tmux/base16.tmuxtheme"
 ```
 
-## Theme Variations with base16-vim and base16-shell
+## Example Theme Variations with base16-vim and base16-shell
 
+### base16_harmonic-dark
+![](https://i.imgur.com/ukd2K1d.png)
+
+### base16_gruvbox-dark-hard
+![](https://i.imgur.com/ASLadZQ.png)
+
+### base16_solarized-light
+![](https://i.imgur.com/YAs4jWV.png)
